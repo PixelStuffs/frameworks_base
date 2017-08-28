@@ -5507,10 +5507,20 @@ public final class Settings {
         public static final String MULTI_AUDIO_FOCUS_ENABLED = "multi_audio_focus_enabled";
 
         /**
+         * @hide
+         */
+        public static final String GLOBAL_ACTIONS_LIST = "global_actions_list";
+
+        /**
          * Whether to enable fingerprint wake-and-unlock.
          * @hide
          */
         public static final String FINGERPRINT_WAKE_UNLOCK = "fingerprint_wake_unlock";
+
+        /**
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
 
         /**
          * IMPORTANT: If you add a new public settings you also have to add it to
@@ -10247,6 +10257,11 @@ public final class Settings {
         @Readable
         public static final String BACKUP_LOCAL_TRANSPORT_PARAMETERS =
                 "backup_local_transport_parameters";
+
+        /**
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";        
 
         /**
          * Flag to set if the system should predictively attempt to re-enable Bluetooth while
